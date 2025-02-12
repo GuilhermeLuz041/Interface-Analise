@@ -95,3 +95,155 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.btn-voltar {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(0,34,58);
+    color: white !important;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.tabela-agenda {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabela-agenda th, .tabela-agenda td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+.concluido { background-color: #d4edda; color: #155724; }
+.pendente { background-color: #fff3cd; color: #856404; }
+
+.relatorio-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.form-relatorio, .form-estoque {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.form-relatorio input, .form-relatorio button {
+    flex: 1;
+    max-width: 300px;
+}
+
+.lista-estoque {
+    margin-top: 20px;
+}
+
+.item-estoque {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #f8f9fa;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.container {
+    margin-bottom: 100px; 
+}
+
+.service {
+    min-width: 200px; 
+}
+
+.subtitulo {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.form-agendamento, .form-avaliacao {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+    border-color: rgb(0,34,58);
+    outline: none;
+}
+
+.btn-primary {
+    background-color: rgb(0,34,58);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: rgb(15, 59, 90);
+}
+
+.btn-secondary {
+    background-color: rgb(0,34,58);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(15, 59, 90);
+}
+
+.btn-service {
+    background-color: rgb(0,34,58);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    transition: background 0.3s;
+}
+
+.btn-service:hover {
+    background-color: rgb(15, 59, 90);
+}
+
