@@ -12,15 +12,36 @@
         <img src="img/logo.png" alt="logo">
     </header>
 
-    <div class="container">
-        <h2>Bem-vindo à Cimas Turbo</h2>
-        <p class="subtitulo">Oferecemos os melhores serviços de manutenção e reparos para o seu veículo.</p>
-        <h4>Escolha seu método de login:</h4>
+    <div class="container" id="container">
+        <h2>Login Cliente</h2>
+        <form>
+ 
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="nome">Senha</label>
+            <input type="text" id="nome" name="nome" required>
 
-        <div class="services">
-            <a href="loginCliente.html" class="btn-primary">Cliente</a>
-            <a href="loginFuncionario.html" class="btn-secondary">Funcionário</a>
-        </div>
+            <div class="services">
+                <div class="service"><a href="loginCliente.html">Login</a></div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container" id="container">
+        <h2>Login Mecânico</h2>
+        <form>
+ 
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="nome">Senha</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <div class="services">
+                <div class="service"><a href="loginFuncionario.html">Login</a></div>
+            </div>
+        </form>
     </div>
 
     <footer id="footer">
