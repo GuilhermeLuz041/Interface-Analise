@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="icon" href="img/Icon.png" type="image/x-icon">
+    <title>Cimas Turbo</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo">
+    </header>
+
+<div id="conteudo">
+    <div class="container" id="container">
+        <h2>Deixe sua Avaliação</h2>
+        <form>
+            <label for="protocolo">Protocolo do Serviço</label>
+            <input type="text" id="protocolo" name="protocolo" required>
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="servico">Serviço Realizado</label>
+            <select id="servico" name="servico" required>
+                <option value="troca-oleo">Troca de Óleo</option>
+                <option value="revisao">Revisão Geral</option>
+                <option value="freios">Troca de Freios</option>
+                <option value="suspensao">Suspensão</option>
+            </select>
+
+            <label for="avaliacao">Nota</label>
+            <select id="avaliacao" name="avaliacao" required>
+                <option value="5">5 - Excelente</option>
+                <option value="4">4 - Muito Bom</option>
+                <option value="3">3 - Bom</option>
+                <option value="2">2 - Regular</option>
+                <option value="1">1 - Ruim</option>
+            </select>
+
+            <label for="comentarios">Comentários</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Conte-nos mais sobre sua experiência..."></textarea>
+
+            <button type="submit">Enviar Avaliação</button>
+        </form>
+    </div>
+</div>
+<footer id="footer">
+    © 2025 Cimas Turbo - Todos os direitos reservados.
+</footer>
+</body>
+</html>
